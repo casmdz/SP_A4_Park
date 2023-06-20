@@ -1,0 +1,88 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+body{
+    font-family: 'Cabin', 'Times New Roman', sans-serif;
+}
+h1, h2, h3, h4, h5, h6,p, li{
+    font-family: 'Cabin', 'Times New Roman', sans-serif;
+}
+/* 
+headers i like 
+tunnel view
+sunset beauty
+golden waterfront or winter purple
+*/
+.navbar-custom {
+    background-color: #546918;
+}
+
+
+header{
+    background-image: url("/images/tunnel-view--aniket-deole.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 35%;
+    /* h, v
+     top left is 0% 0%.  
+     right bottom is 100% 100%
+    */
+    height: 75vh;
+}
+/* .bg-image-full{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+} */
+
+.hero #ParkBox{
+    position:absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.Hero #ParkBox .container{
+    display: flex;
+    align-items: flex-end;
+}
+.Hero .container{
+    position: relative;
+}
+#Hero{
+    position: relative;
+}
+
+
+#intro{
+  height: 50vh;
+  background-size: cover;
+  background-position: 0% 35%;
+}
+
+
+
+
+
+
+.gallery-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .gallery-column {
+    flex: 1;
+    padding: 5px;
+  }
+
+  .gallery-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+
+
